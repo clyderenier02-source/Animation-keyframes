@@ -78,3 +78,38 @@
 }
 
 /* div balle */
+.balle {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: relative;
+    animation: mouvementComplexe 4s infinite;
+}
+
+@keyframes mouvementComplexe {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 100px;
+        left: 100px;
+    }
+
+    50% {
+        top: 0;
+        left: 0;
+    }
+
+    70% {
+        top: 100px;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
